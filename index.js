@@ -13,7 +13,21 @@
 // console.log(`제 나이는 ${age}살 입니다.`);
 
 
+// const NAME = "매코"; // typeof 를 통해서, 자료의 타입을 알 수 있다.
+// console.log(typeof NAME);   // string
+// console.log(typeof 3);   // number
+// console.log(typeof true);   // boolean
 
+// function hello(target){   // 그냥 함수 선언
+//     console.log(`Hello, ${target}!`);
+//     return 0;
+// }
+
+// hello(target="매코");   // 함수 호출
+// console.log(typeof hello)   // function
+
+const Isyou = confirm("당신이 맞나요?");
+console.log(Isyou)
 
 
 
